@@ -1,0 +1,146 @@
+body    {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgb(46, 16, 73);
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(turkey-panoramic.jpg);
+    background-size: cover;
+    background-position: 0%;
+    padding-bottom: 250px;
+
+}
+
+
+#act-tex1  {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.7em;
+    text-shadow: 0px 0px 1px white;
+    
+}
+
+#act-tex2   {
+    color: white;
+    font-size: 1.3em;
+    text-shadow: 0px 0px 1px white;
+}
+
+
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.istanbul    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+}
+
+.pamukkale  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cappadocia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#entry-text {
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 20px 0px 10px 0px;
+    color: white;
+    text-shadow: 0px 0px 1px white;
+}
+
+#entry-exp  {
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    text-shadow: 0px 0px 1px white;
+}
+
+
+#content {
+    width: 180px;
+    height: 180px; 
+    margin: 50px;
+    border-radius: 50%;
+}
+
+#btn-city   {
+    font-size: larger;
+    background-color: black;
+    border: 0 solid white;
+    border-radius: 10%;
+    padding: 5px 10px;
+    
+}
+
+a   {
+    color: white;
+}
+
+#btn-city:hover {
+    background-color: rgb(128, 57, 10);
+} 
+
+#btn-pam   {
+    font-size: larger;
+    background-color: black;
+    border: 0 solid white;
+    border-radius: 10%;
+    padding: 5px 10px;
+    
+}
+
+#btn-pam:hover {
+    background-color: rgb(128, 57, 10);
+} 
+
+#btn-cap  {
+    font-size: larger;
+    background-color: black;
+    border: 0 solid white;
+    border-radius: 10%;
+    padding: 5px 10px;
+    
+}
+
+#btn-cap:hover {
+    background-color: rgb(128, 57, 10);
+} 
+
+#footer {
+    font-size: larger;
+    font-style: italic;
+    color: white;
+
+}
+
+#footer-hov:hover   {
+    color: red;
+}
